@@ -151,7 +151,7 @@ end
 def player_numbers(teamname)
   arr = []
   game_hash.each do |location, team_data|
-    if game_hash[location][:team_name].include?(teamname)
+    if game_hash[location].include?(teamname)
       arr << game_hash[location][teamname][:player][:number]
     end
   end
