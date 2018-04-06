@@ -155,5 +155,5 @@ def player_numbers(teamname)
       game_hash[location][:team_name][:player][:number]
     end
   end
-  return arr
+  # return arr
 end
